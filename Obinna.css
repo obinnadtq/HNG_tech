@@ -49,6 +49,12 @@ p.statement{
 	padding-left: 20px;
 }
 
+.row:after{
+
+	content: "";
+	display: table;
+	clear: both;
+}
 #personal{
 	color: yellow; 
 }
@@ -64,4 +70,10 @@ p.statement{
 
 #role{
 	font-size: 20px;
+}
+
+textarea{
+
+	width: 300px;
+	height: 300px;
 }

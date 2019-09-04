@@ -4,6 +4,7 @@
 	<title>Obinna Isiwekpeni CV</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="Obinna.css">
+	<script type="text/javascript" src="Obinna.js"></script>
 </head>
 <body>
 	<div class="header">
@@ -121,6 +122,19 @@
 
 	</div>
 
+	<form name="ContactForm" onsubmit="return validateform()" method="post" action="oisiwekpeni@gmail.com">
+		Name:<br>
+		<input type="text" name="name" id="name" required placeholder="Enter at least 4 characters"><br>
+		Email:<br>
+		<input type="email" name="email" id='email'><br>
+		Title:<br>
+		<input type="text" name="title" id="title"><br>
+		Message:<br>
+		<textarea name="message" required id="message" placeholder="Enter at least 20 characters"></textarea>
+		<input type="submit" value="Submit">
+	</form>
+
 </body>
+</html>
 
 	
